@@ -1,0 +1,171 @@
+/* Typography */
+body {
+    /* Everything is Raleway */
+    font-family: 'Raleway', sans-serif;
+  }
+  /* Except we're using more specific rules to override the headlines */
+  h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+  }
+
+  h1 {
+    font-family: 'PT Sans Caption', sans-serif;
+    margin-left: 25px;
+  }
+
+  h7 {
+    font-family: 'PT Sans Caption', sans-serif;
+    margin-left: 30px;
+    text-shadow: 1px 1px 1px rgb(247, 124, 134)
+  }
+
+  h8 {
+    font-family: 'PT Sans Caption', sans-serif;
+    color: rgb(58, 182, 204);
+    font-size: 35px;
+  }
+
+  h9 {
+    font-family: 'PT Sans Caption', sans-serif;
+    text-shadow: 1px 1px 1px rgb(247, 124, 134);
+    background-color: black;
+  }
+
+  h10 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 45px;
+    text-shadow: 1px 1px 1px rgb(247, 124, 134)
+  }
+
+  h11 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1px;
+    color: rgb(58, 182, 204);
+    text-shadow: none;
+  }
+
+  .btn-jumbo {
+    font-family: 'PT Sans Caption', sans-serif;
+    background-color:  rgb(212, 34, 49);
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-left: 30px;
+    text-shadow: 1px 1px 1px rgb(243, 136, 145)
+  }
+
+  .btn-jumbo:hover {
+    background-color: rgb(97, 172, 54);
+    background-color: rgb(58, 182, 204);
+  }
+
+  .navbar-brand {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom:-25px;
+    margin-right:180px !important;
+  }
+
+  .navbar-brand img {
+    width: 70px;
+    height: 70px;
+    margin-bottom:25px;
+    margin-right:-10px !important;
+  }
+  .navbar-light .navbar-brand {
+    color: rgb(31, 3, 3);
+  }
+  
+  .navbar {
+    background-color: white;
+  }
+  
+  .navbar-nav {
+    font-size: 16px;
+    margin-bottom:-35px;
+    white-space: nowrap;
+  }
+  
+  .button1 {
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 7px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1:hover {
+    background-color: rgb(213, 245, 195);
+    color: white;
+    border: none;
+  }
+
+  .jumbotron {
+    background-attachment: fixed;
+    background-image: url(view2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(243, 46, 63);
+  }
+  
+  /* The background color of the "testimonials" part */
+  .testimonials {
+    background-color: #eeeeee;
+  }
+  
+  /* The size of the testimonials images */
+  .media img {
+    width: 64px;
+    height: 64px;
+  }
+  
+  /* The pricing */
+  .pricing {
+    background-color: #181818;
+  }
+  .pricing h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: #cccccc;
+  }
+  
+  /* The footer */
+  .footer img {
+    width: 100px;
+  }
+
+  img.img-fluid {
+      width: max-content;
+  }
+
+  .carousel {
+    width: 400px;
+    margin: auto;
+  }
+
+  .carousel-inner {
+    margin: auto;
+  }
+
+  .my-4 {
+    background-color: red;
+  }
+
+  .jumbotron2 {
+    background-color: rgb(58, 182, 204);
+    color: white;
+    text-shadow: 1px 1px 1px rgb(243, 46, 63);
+  }
+
+  .container2 {
+    margin-left: 100px;
+  }
